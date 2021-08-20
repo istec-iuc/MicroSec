@@ -21,7 +21,7 @@ Docker based Cyber Security Training Web Platform  (*Docker tabanlı Siber Güve
   
   5. /infosec/public_html/ içerisindeki *open.php ve close.php* dosyaları içerisindeki :
         
-        1. ssh2_connect fonksiyonu içerisinde bulunan IP adresi yerine host makinenizin ip adresni yazınız.
+        1. ssh2_connect fonksiyonu içerisinde bulunan IP adresi yerine dockerı çalıştıran host makinenizin ip adresni yazınız.
        
        2. ssh2_auth() içerisindeki "deneme" yerine linux kullanıcı adınızı, "123" yerine root şifrenizi yazınız.
     
