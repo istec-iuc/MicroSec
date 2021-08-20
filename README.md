@@ -1,5 +1,5 @@
 # MicroSec
-Security Training Web Platform with Docker
+Docker based Cyber Security Training Web Platform  (*Docker tabanlı Siber Güvenlik Web Eğitim Platformu*)
 
 # Kurulum
 
@@ -8,14 +8,14 @@ Security Training Web Platform with Docker
   2. Setup klasörü içerisinde bulunan **kurulum.sh** dosyasını **root** yetkileri ile çalıştırın ve kurulumu bekleyin.
   
   3. Kurulum bittikten sonra :
+  
         1.  `sudo groupadd docker`
         
         2.  `sudo usermod -aG docker $USER`
         
         3.  `reboot`
   
-  Komutlarını sırası ile çalıştırın. Reboot işleminden sonra Docker, root yetkileri istemeden çalışacaktır.
-  Emin olmak için konsola `docker images` yazarak yetkilendirme hatasını çıkıp çıkmadığına bakın. Zaafiyetli labların imaajları gözükecektir.
+  Komutlarını sırası ile çalıştırın. Reboot işleminden sonra Docker, root yetkileri istemeden çalışacaktır. Emin olmak için konsola `docker images` yazarak yetkilendirme hatasını çıkıp çıkmadığına bakın. Zaafiyetli labların imaajları gözükecektir.
   
   4. Setup klasörü içerisindeki *start.sh ve stop.sh* dosyalarını -- /home/$USER -- dizininin altına taşıyın.
   
