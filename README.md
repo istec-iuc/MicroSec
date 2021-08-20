@@ -36,7 +36,7 @@ Security Training Web Platform with Docker
   
   10. Projenin tadını çıkarın :)
 
-#İletişim
+# İletişim
 
 Docker ve proje ile ilgili yaşadığınız problemler ve merak ettikleriniz için :
   1. Berkant DEMİRCİ    ==>     email : berkantdemirci1905@gmail.com   --   instagram : berkant.py    --    Telegram : t.me/Berkant55
