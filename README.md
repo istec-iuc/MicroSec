@@ -1,7 +1,7 @@
 # MicroSec
 Security Training Web Platform with Docker
 
-#Kurulum
+# Kurulum
 
   1. Linux tabanlı işletim sisteminize *Docker'ın ve SSH'ın* kurulu olduğunda emin olun.
   
