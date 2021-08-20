@@ -27,11 +27,11 @@ Security Training Web Platform with Docker
   
   8. localhost:8000 adresinde giderek (username : root  password : rootpassword) aşağıdaki fotoğraf adımlarını izleyerek veri tabanınızı oluşturun. :
   
-   1. ![1](https://user-images.githubusercontent.com/58151582/130284725-4153c120-3210-4eee-bc63-a3cee73c9675.png)
+    1. ![1](https://user-images.githubusercontent.com/58151582/130284725-4153c120-3210-4eee-bc63-a3cee73c9675.png)
     
-   2. ![2](https://user-images.githubusercontent.com/58151582/130284747-5c6e5e3d-bbed-4f3d-94ca-82fbac789092.png)
+    2. ![2](https://user-images.githubusercontent.com/58151582/130284747-5c6e5e3d-bbed-4f3d-94ca-82fbac789092.png)
  
-   3. ![3](https://user-images.githubusercontent.com/58151582/130284787-932e788e-ea6f-482f-b519-0bbb1392873e.png)
+    3. ![3](https://user-images.githubusercontent.com/58151582/130284787-932e788e-ea6f-482f-b519-0bbb1392873e.png)
   
   9. localhost:80 adresine giderek *create account* butonunundan yeni hesap oluşturun.
 
