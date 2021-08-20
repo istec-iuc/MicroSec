@@ -8,17 +8,22 @@ Security Training Web Platform with Docker
   2. Setup klasörü içerisinde bulunan **kurulum.sh** dosyasını **root** yetkileri ile çalıştırın ve kurulumu bekleyin.
   
   3. Kurulum bittikten sonra :
-    1.  `sudo groupadd docker`
-    2.  `sudo usermod -aG docker $USER`
-    3.  `reboot`
+        1.  `sudo groupadd docker`
+        
+        2.  `sudo usermod -aG docker $USER`
+        
+        3.  `reboot`
+  
   Komutlarını sırası ile çalıştırın. Reboot işleminden sonra Docker, root yetkileri istemeden çalışacaktır.
   Emin olmak için konsola `docker images` yazarak yetkilendirme hatasını çıkıp çıkmadığına bakın. Zaafiyetli labların imaajları gözükecektir.
   
   4. Setup klasörü içerisindeki *start.sh ve stop.sh* dosyalarını -- /home/$USER -- dizininin altına taşıyın.
   
   5. /infosec/public_html/ içerisindeki *open.php ve close.php* dosyaları içerisindeki :
+        
         1. ssh2_connect fonksiyonu içerisinde bulunan IP adresi yerine host makinenizin ip adresni yazınız.
-        2. ssh2_auth() içerisindeki "deneme" yerine linux kullanıcı adınızı, "123" yerine root şifrenizi yazınız.
+       
+       2. ssh2_auth() içerisindeki "deneme" yerine linux kullanıcı adınızı, "123" yerine root şifrenizi yazınız.
     
   6. infosec klasöründeki **docker-compose.yml** dosyasını terminal ekranına (docker-compose dosyası ile aynı ortamda çalıştımalısınız) `docker-compose up` yazarak çalıştırın ve kurulumu bekleyin.
 
