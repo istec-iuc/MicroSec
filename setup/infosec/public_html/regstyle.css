@@ -1,0 +1,65 @@
+body {
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family:'Times New Roman' ;
+}
+h1{
+  font-size: 40px;
+  color:white;
+  margin-top : 250px;
+}
+h3{
+  font-size: 25px;
+  color:white;
+}
+.glyphicon-pencil{
+   font-size:35px;
+   color:white;
+   float: right;
+   margin-top: 2px;
+}
+.container .myform{
+  margin-top : 80px;
+  box-shadow: -1px 1px 60px 10px black;
+  background: rgba(0, 0, 0, 0.1);
+}
+.label{
+  font-weight: normal;
+  margin-top: 15px;
+  color:white;
+  font-size: 19px;
+  display:block;
+}
+.form-control{
+  background: transparent;
+  border-radius: 0px;
+  border:0px;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+  margin-top: 15px;
+}
+small{
+  font-size:18px;
+  color:white;
+}
+input[type="radio"]{
+  display:block;
+}
+option{
+  color:gray;
+}
+.btn-info{
+  margin-top:20px;
+  font-size: 18px;
+  width:120px;
+  margin-left:80px;
+  margin-bottom: 20px;
+}
+.btn-warning{
+  margin-top:20px;
+  font-size: 18px;
+  width:120px;
+  margin-bottom: 20px;
+}
+
