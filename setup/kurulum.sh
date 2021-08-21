@@ -7,7 +7,7 @@ if ! [ $(id -u) = 0 ]; then
    exit 1
 fi
 
-for req in ssh docker ssh 
+for req in ssh docker  
 do
 command -v $req >/dev/null 2>&1 || { echo >&2 "I require $req but it's not installed.  Aborting."; exit 1; }
 done
