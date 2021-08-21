@@ -15,7 +15,7 @@ Docker based Cyber Security Training Web Platform  (*Docker tabanlı Siber Güve
         
         3.  `reboot`
   
-  Komutlarını sırası ile çalıştırın. Reboot işleminden sonra Docker, root yetkileri istemeden çalışacaktır. Emin olmak için konsola `docker images` yazarak yetkilendirme hatasını çıkıp çıkmadığına bakın. Zaafiyetli labların imaajları gözükecektir.
+  Komutlarını sırası ile çalıştırın. Reboot işleminden sonra Docker, root yetkileri istemeden çalışacaktır. Emin olmak için konsola `docker images` yazarak yetkilendirme hatasını çıkıp çıkmadığına bakın. Zaafiyetli labların imajları gözükecektir.
   
   4. Setup klasörü içerisindeki *start.sh ve stop.sh* dosyalarını -- /home/$USER -- dizininin altına taşıyın.
   
