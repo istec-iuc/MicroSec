@@ -31,4 +31,3 @@ if (1) {
     }
 }
 
-// Berkant DEMİRCİ
