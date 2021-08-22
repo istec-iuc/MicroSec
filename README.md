@@ -45,3 +45,11 @@ Docker based Cyber Security Training Web Platform  (*Docker tabanlı Siber Güve
 
 Docker ve proje ile ilgili yaşadığınız problemler ve merak ettikleriniz için :
   1. Berkant DEMİRCİ    ==>     email : berkantdemirci1905@gmail.com   --   instagram : berkant.py    --    Telegram : t.me/Berkant55
+  
+  2. Yusuf ÇETİNKAYA    ==>     email : 23yusufcetinkaya@gmail.com   --    instagram : yusuf.cetinky   --
+
+  3. Emirhan MUTLU      ==>     email : 
+
+  4. Gizem BULUT        ==>     email :
+
+  5. Safiye KAKO        ==>     email : 
