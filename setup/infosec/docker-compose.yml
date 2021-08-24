@@ -1,0 +1,53 @@
+
+# Berkant DEMİRCİ
+
+version: "3.2"
+services:
+  php-apache:
+    build: .
+    depends_on:
+      - mysql
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "80:80"
+    volumes:
+      - ./public_html:/var/www/html/
+
+    container_name: php-apache
+  mysql:
+    hostname: veritabani
+    ports: 
+      - 3306:80
+    image: mysql
+    restart: always
+    volumes:
+            - data:/var/lib/mysql
+    networks:
+      - backend
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_USER: otheruser
+      MYSQL_PASSWORD: password
+    container_name: mysql
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    ports: 
+        - 8000:80
+    depends_on: 
+        - mysql
+    links: 
+      - mysql
+    environment: 
+      PMA_HOST: "mysql"
+    networks: 
+      - backend
+networks:
+  frontend:
+  backend:
+volumes:
+    data:
+
