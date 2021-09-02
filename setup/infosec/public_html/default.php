@@ -1,4 +1,7 @@
-<?php     
+<?php   
+
+#Gizem Bulut
+
 if (!isset($_SESSION['oturum']))
 {
     header("Location: index.php");
